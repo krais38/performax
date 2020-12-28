@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@media screen and (min-width:769px){
+  .movie-container select, .datum-box input, .cas-box select, .datum-box button, .cas-box button {font-size:1.5em!important;}
 
+  img {
+    height: 10vh!important;
+  }
+}
 * {
   box-sizing: border-box;
 }
 img {
-  height: 10vh;
+  height: 8vh;
 }
 body {
   background-color: #242333;
@@ -15,9 +21,12 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: 'Lato', sans-serif;
-  margin: 0;
+  margin: 8px;
 }
-
+button {
+  color: white;
+  background-color: #f03233!important;
+}
 .movie-container {
   margin: 20px 0;
   display: flex;
@@ -29,7 +38,7 @@ body {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
-  font-size: 1.5em;
+  font-size: 14px;
   margin-left: 10px;
   padding: 5px 15px 5px 15px;
   -moz-appearance: none;

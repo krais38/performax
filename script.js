@@ -57,6 +57,7 @@ const updateSelectedSeatsCount = () => {
 
   count.innerText = selectedSeatsCount;
   price.innerText = selectedSeatsCount * ticketPrice;
+  
 };
 
 // Seat select event
